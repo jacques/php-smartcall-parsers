@@ -1,7 +1,7 @@
 {
     "name": "jacques/php-fnb-banktable",
     "type": "library",
-    "description": "Library for parsing the various CSV files which SmartCall provides",
+    "description": "Library for parsing the various CSV files which Smartcall provides",
     "keywords": [
         "smartcall"
     ],
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Jacques\\SmartCall\\Parsers\\": "src/"
+            "Jacques\\Smartcall\\Parsers\\": "src/"
         }
     },
     "require": {
