@@ -1,0 +1,34 @@
+{
+    "name": "jacques/php-fnb-banktable",
+    "type": "library",
+    "description": "Library for parsing the various CSV files which SmartCall provides",
+    "keywords": [
+        "smartcall"
+    ],
+    "homepage": "https://github.com/jacques/php-smartcall-parsers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacques Marneweck",
+            "email": "jmarneweck+smartcall-parsers@gmail.com",
+            "homepage": "https://github.com/jacques/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jacques\\SmartCall\\Parsers\\": "src/"
+        }
+    },
+    "require": {
+        "league/csv": "^9.0",
+        "nesbot/carbon": "^1.22"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors --debug --configuration=tests/phpunit.xml --coverage-clover build/logs/clover.xml --coverage-text",
+        "phpcs": "vendor/bin/phpcs --standard=PSR1,PSR2 --extensions=php lib tests"
+    }
+}
