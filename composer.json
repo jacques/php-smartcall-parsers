@@ -1,5 +1,5 @@
 {
-    "name": "jacques/php-fnb-banktable",
+    "name": "jacques/php-smartcall-parsers",
     "type": "library",
     "description": "Library for parsing the various CSV files which Smartcall provides",
     "keywords": [
