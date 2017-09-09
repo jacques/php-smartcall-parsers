@@ -21,7 +21,7 @@
         }
     },
     "require": {
-        "league/csv": "^9.0",
+        "league/csv": "^8.2",
         "nesbot/carbon": "^1.22"
     },
     "require-dev": {
